@@ -35,8 +35,8 @@ span.tab {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vmin;
-    padding-top: 50px;
+    width: 90vmin;
+    margin-top: 50px;
 }
 
 #head {
@@ -44,31 +44,7 @@ span.tab {
     flex-direction: row;
     align-items: start;
     width: 100%;
-    margin-bottom: 20px;
-}
-
-.line {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 5px;
-    width: 100%;
-}
-
-.left {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    padding-left: 40px;
-    width: 40vmin;
-    font-weight: 700;
-    color: #333;
-}
-
-.right {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 .line-icon {
@@ -83,10 +59,55 @@ span.tab {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30px;
-    height: 30px;
+    width: 3.8vmin;
+    height: 3.8vmin;
     background-color: #333;
     border-radius: 50%;
+}
+
+.icon {
+    width: 60%;
+    height: 60%
+}
+
+.headline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.new {
+    margin-top: 5px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 35vmin;
+    font-weight: 600;
+    color: #333;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: 20px;
+    width: 55vmin;
 }
 
 #photo {
@@ -109,17 +130,4 @@ span.tab {
 .row-title {
     font-weight: 700;
     color: #333;
-}
-
-
-.test-a {
-    background-color: #ff6600;
-    min-width: 100px;
-    min-height: 100px;
-}
-
-.test-b {
-    border-style: solid;
-    min-width: 100px;
-    min-height: 100px;
 }
