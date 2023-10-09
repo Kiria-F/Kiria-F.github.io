@@ -109,9 +109,10 @@ span.tab {
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 35vmin;
+    width: 30vmin;
+    margin-right: 5vmin;
     font-weight: 600;
-    color: #333;
+    color: #555;
 }
 
 .right {
@@ -122,12 +123,16 @@ span.tab {
     width: 55vmin;
 }
 
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
 .title {
     font-weight: 700;
     color: #111;
-}
-
-.row-title {
-    font-weight: 700;
-    color: #333;
 }
