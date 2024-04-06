@@ -10,9 +10,9 @@ body {
     align-items: center;
     background-color: #f6f6f6;
     font-family: Geologica, Arial, Helvetica, sans-serif;
-    font-size: 2.5vmin;
+    font-size: 2vmin;
     font-weight: 300;
-    color: #444;
+    color: #111;
 }
 
 hr {
@@ -27,6 +27,10 @@ span.tab {
     padding-left: 1.5em;
 }
 
+hb {
+    font-weight: 550;
+}
+
 #photo {
     width: 90%;
     border-radius: 50%;
@@ -35,8 +39,8 @@ span.tab {
 #name {
     font-weight: 700;
     color: #333;
-    font-size: 1.15em;
-    margin-bottom: 0.75em;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 #personal-info-container > hr {
@@ -56,7 +60,7 @@ span.tab {
     flex-direction: row;
     align-items: start;
     width: 100%;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
 .line-icon {
@@ -87,6 +91,7 @@ span.tab {
     flex-direction: row;
     align-items: center;
     align-content: center;
+    font-size: 1.1em;
     margin-top: 0.5em;
     margin-bottom: 1em;
     width: 100%;
@@ -100,7 +105,7 @@ span.tab {
 .line {
     display: flex;
     flex-direction: row;
-    margin-bottom: 0.25em;
+    margin-bottom: 0.75em;
     width: 100%;
     padding-left: 2em;
 }
@@ -109,10 +114,10 @@ span.tab {
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 30vmin;
+    width: 20vmin;
     margin-right: 5vmin;
     font-weight: 600;
-    color: #555;
+    color: #444;
 }
 
 .left.large {
