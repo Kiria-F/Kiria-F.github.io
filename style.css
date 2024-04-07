@@ -55,15 +55,19 @@ hb {
     border-radius: 50%;
 }
 
-#personal-info-container > hr {
-    margin-bottom: 1.5em;
-}
-
 #name {
     font-weight: 700;
     color: #333;
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
+    font-size: 1.6em;
+    margin-bottom: 2vmin;
+}
+
+#name-description {
+    margin-bottom: 1.5vmin;
+}
+
+#personal-info-container > hr {
+    margin-bottom: 4vmin;
 }
 
 #general-container {
@@ -117,16 +121,20 @@ hb {
 }
 
 .new {
-    margin-top: 0.25em;
+    margin-top: 0.5vmin;
 }
 
 .line {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 0.75em;
+    margin-bottom: 1.5vmin;
     padding-left: 3vmin;
     padding-right: 3vmin;
+}
+
+.big {
+    font-size: 1.3em;
 }
 
 .left {
