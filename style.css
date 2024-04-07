@@ -32,6 +32,10 @@ hr {
     width: 100%;
 }
 
+p {
+    margin-top: 0.5vmin;
+}
+
 span.tab {
     padding-left: 1.5em;
 }
