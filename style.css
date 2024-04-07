@@ -133,6 +133,10 @@ hb {
     padding-right: 3vmin;
 }
 
+.centered {
+    justify-content: center;
+}
+
 .big {
     font-size: 1.3em;
 }
