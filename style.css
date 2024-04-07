@@ -44,9 +44,19 @@ hb {
     font-weight: 550;
 }
 
+#photo-container {
+    width: 34vmin;
+    margin-left: 3vmin;
+    margin-right: 3vmin;
+}
+
 #photo {
-    width: 90%;
+    width: 100%;
     border-radius: 50%;
+}
+
+#personal-info-container > hr {
+    margin-bottom: 1.5em;
 }
 
 #name {
@@ -54,10 +64,6 @@ hb {
     color: #333;
     font-size: 1.5em;
     margin-bottom: 0.5em;
-}
-
-#personal-info-container > hr {
-    margin-bottom: 1.5em;
 }
 
 #general-container {
@@ -107,7 +113,7 @@ hb {
     margin-top: 0.5em;
     margin-bottom: 1em;
     width: 100%;
-    padding-left: 2em;
+    padding-left: 3vmin;
 }
 
 .new {
@@ -131,11 +137,6 @@ hb {
     margin-right: 5vmin;
     font-weight: 600;
     color: #444;
-}
-
-.left.large {
-    width: 40vmin;
-    margin-right: 0;
 }
 
 .right {
