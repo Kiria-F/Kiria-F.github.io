@@ -27,6 +27,10 @@ span.tab {
     padding-left: 1.5em;
 }
 
+icon {
+    display: inline;
+}
+
 hb {
     font-weight: 550;
 }
@@ -145,4 +149,12 @@ li {
 .title {
     font-weight: 700;
     color: #111;
+}
+
+.smol {
+    font-size: 0.8em;
+}
+
+.weak {
+    opacity: 0.4;
 }
