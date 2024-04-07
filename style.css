@@ -1,3 +1,12 @@
+/*
+general-container.width = 90vmin
+line.left-padding = 3vmin
+line.right-padding = 3vmin
+left.width = 20vmin
+left.margin-right = 5vmin
+right.width = 90 - 3 - 3 - 20 - 5 = 59vmin
+*/
+
 @font-face {
     font-family: 'Geologica';
     src: url(assets/Geologica-VariableFont.ttf);
@@ -54,7 +63,6 @@ hb {
 #general-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 90vmin;
     margin-top: 2.5em;
 }
@@ -109,9 +117,10 @@ hb {
 .line {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin-bottom: 0.75em;
-    width: 100%;
-    padding-left: 2em;
+    padding-left: 3vmin;
+    padding-right: 3vmin;
 }
 
 .left {
@@ -133,8 +142,7 @@ hb {
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-right: 1em;
-    width: 55vmin;
+    width: 59vmin;
 }
 
 ul {
